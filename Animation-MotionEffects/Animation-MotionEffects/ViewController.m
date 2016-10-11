@@ -8,8 +8,20 @@
 
 #import "ViewController.h"
 
+//自定义MotionEffect
+@interface MyMotionEffect : UIMotionEffect
+- (NSDictionary<NSString *,id> *)keyPathsAndRelativeValuesForViewerOffset:(UIOffset)viewerOffset;
+@end
 
+@implementation MyMotionEffect
 
+- (NSDictionary<NSString *,id> *)keyPathsAndRelativeValuesForViewerOffset:(UIOffset)viewerOffset{
+    NSLog(@"Horizontal:%f,vertical:%f",viewerOffset.horizontal,viewerOffset.vertical);
+    //返回对象是一个字典类型，key是修改UIView的键路径，value是修改的值
+    return @{@"center.x":@(viewerOffset.horizontal*200),@"center.y":@(viewerOffset.vertical*200)};
+}
+
+@end
 
 @interface ViewController ()
 
@@ -74,6 +86,8 @@
     [self addMotionEffectScopeValue:300 target:self.ship];
     [self addMotionEffectScopeValue:20 target:self.text];
     [self addMotionEffectScopeValue:50 target:self.octocat];
+    
+    [self.view addMotionEffect:[[MyMotionEffect alloc]init]];
 }
 
 - (void)addMotionEffectScopeValue:(CGFloat)scope target:(UIView *)target {

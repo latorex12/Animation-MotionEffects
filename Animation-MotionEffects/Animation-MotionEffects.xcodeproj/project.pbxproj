@@ -13,6 +13,7 @@
 		84FDE64E1DACDBD6001F9E90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FDE64C1DACDBD6001F9E90 /* Main.storyboard */; };
 		84FDE6501DACDBD6001F9E90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FDE64F1DACDBD6001F9E90 /* Assets.xcassets */; };
 		84FDE6531DACDBD6001F9E90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FDE6511DACDBD6001F9E90 /* LaunchScreen.storyboard */; };
+		84FDE65B1DACDC81001F9E90 /* github404 in Resources */ = {isa = PBXBuildFile; fileRef = 84FDE65A1DACDC81001F9E90 /* github404 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		84FDE64F1DACDBD6001F9E90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84FDE6521DACDBD6001F9E90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84FDE6541DACDBD6001F9E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FDE65A1DACDC81001F9E90 /* github404 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = github404; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				84FDE64A1DACDBD6001F9E90 /* ViewController.m */,
 				84FDE64C1DACDBD6001F9E90 /* Main.storyboard */,
 				84FDE64F1DACDBD6001F9E90 /* Assets.xcassets */,
+				84FDE65A1DACDC81001F9E90 /* github404 */,
 				84FDE6511DACDBD6001F9E90 /* LaunchScreen.storyboard */,
 				84FDE6541DACDBD6001F9E90 /* Info.plist */,
 				84FDE6431DACDBD6001F9E90 /* Supporting Files */,
@@ -138,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84FDE65B1DACDC81001F9E90 /* github404 in Resources */,
 				84FDE6531DACDBD6001F9E90 /* LaunchScreen.storyboard in Resources */,
 				84FDE6501DACDBD6001F9E90 /* Assets.xcassets in Resources */,
 				84FDE64E1DACDBD6001F9E90 /* Main.storyboard in Resources */,
